@@ -1,41 +1,49 @@
 @import url(base.css);
 
-h1 {
-  font-size: 200%;
-  margin: 8px 0px;
-}
-
-img {
-  border-radius: 12px;
+body {
+  font-family: Trebuchet MS, sans-serif;
+  background-color: #e73ca5;
+  margin: 20px;
 }
 
 article {
-  background-color: lightgray;
-  border-radius: 16px;
-  padding: 16px;
-  margin: 2vw;
+  background-color: rgb(232, 131, 194);
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-span {
-  margin-right: 4px;
+h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 220px;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 8px 0;
+  line-height: 1.4;
 }
 
 .genre {
+  background-color: #dd68b2;
   padding: 4px 8px;
-  border: solid black 1px;
-  border-radius: 6px;
-  background-color: darkgray;
-  font-weight: bold;
+  border-radius: 8px;
+  margin-right: 6px;
+  display: inline-block;
 }
 
-input {
-  width: 100%;
-}
-
-select {
-  width: 100%;
-}
-
-textarea {
-  width: 100%;
+button {
+  background-color: #e504ad;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 10px;
 }
